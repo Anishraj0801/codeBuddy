@@ -65,3 +65,15 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
  ## path for api checking and params
+ Assuming you have set up your Laravel application to run on http://localhost, here is an example of how you can test the book method using Postman:
+
+Open Postman and create a new request.
+Set the HTTP method to POST.
+Enter the URL http://localhost/api/book-seats.
+Click on the Body tab.
+Select raw and JSON as the request body type.
+Enter the following JSON data in the request body:
+{
+    "seat_number": "B5",
+    "num_tickets": 3
+}
